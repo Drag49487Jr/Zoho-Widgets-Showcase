@@ -1,0 +1,57 @@
+body {
+    background: radial-gradient(ellipse at top, #F5F7FA 30%, #B8C6DB 80%);
+    height: 800px
+}
+#futureFitnessLogo {
+    height:200px;
+    width:200px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#welcomeText, #inputText, #customerPhoneNumber, #errorMessage, #button, #successBox{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+#img {
+    margin-top: 10px;
+    max-height: 400px;
+    max-width: 200px;
+    animation: rotation 7s infinite linear;
+}
+#successBox::before {
+    display: none;
+}
+#successBox {
+    columns: 2;
+}
+#successMessage {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+#membershipInfo {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+#membershipStatus {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    /* color:green; */
+}
+#my-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;  
+}
+@keyframes rotation {
+    50% {
+        transform: rotateY(180deg)
+    } 75% {
+        transform:rotate3d(270deg);
+    } 100% {
+        transform: rotateY(360deg);
+    }
+}

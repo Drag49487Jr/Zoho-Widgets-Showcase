@@ -1,0 +1,59 @@
+/* .section {
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    background-position: left;
+} */
+
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+table {
+    border-spacing: 0px;
+    box-sizing: content-box;
+    width: 800px;
+    background-image:linear-gradient(0deg, #8c8b9e, transparent);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    /* margin-bottom: 5px; */
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    column-count: 2;
+}
+.row {
+    border-bottom: 30px;
+    height:50px;
+    width:100%;
+    transition-duration: 0.5s;
+}
+.row:hover {
+    box-shadow: 2px 5px 15px;
+}
+.membershipType {
+    font-size: 15x;
+}
+/* .fee {
+    font-size: medium;
+
+}
+.price {
+    font-size: medium;
+
+}
+.paymentInterval {
+    font-size: medium;
+
+} */
+.button{
+    background-color:transparent;
+    border:none;
+    height:50px;
+    width:100%;
+    font-size: 15px;
+    
+}
+.buttonTd{
+    transition-duration: 0.5s;
+}
+.buttonTd:hover, .button:hover {
+    background-color:green;
+    border:none;
+    cursor: pointer;
+}
