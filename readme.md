@@ -12,7 +12,7 @@ The opposite is true if an Add-On is deactivated.
 </p>
 
 <h3>Bicom Widget</h3>
-<p>Navigate to the folder called "app", then you will see the "css" and "js" folder. The frontend is using "html".<p>\
+<p>Navigate to the folder called "app", then you will see the "css" and "js" folder. The frontend is using "html".<p>
 <h6>Brief Summary<h6>
 <p>
 This widget grabs the information that the technician has filled out in a custom module and create the tenant with the extensions into Bicom.
