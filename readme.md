@@ -3,7 +3,7 @@
 
 <h3>Add Ons For Subscription Widget</h3>
 <p>Navigate to the folder called "app", then you will see the "css" and "js" folder. The frontend is using "html".<p>
-<h6>Brief Summary<h6>
+<h4>Brief Summary<h4>
 <p>
 This widget is used for gym clients that would like to purchase additional Add-On sessions.
 Depending on the type of Subscription the client had (ex., Silver, Gold, Platinum) will populate the Add-Ons that correspond to that plan.
@@ -13,7 +13,7 @@ The opposite is true if an Add-On is deactivated.
 
 <h3>Bicom Widget</h3>
 <p>Navigate to the folder called "app", then you will see the "css" and "js" folder. The frontend is using "html".<p>
-<h6>Brief Summary<h6>
+<h4>Brief Summary<h4>
 <p>
 This widget grabs the information that the technician has filled out in a custom module and create the tenant with the extensions into Bicom.
 Due to the API limit per second, this widget must send the extensions in intervals to avoid an interuption or an error.
@@ -22,7 +22,7 @@ This allows the technician to stay in Zoho CRM without needing to navigate to Bi
 
 <h3>Check In Widget</h3>
 <p>Navigate to the folder called "app", then you will see the "css" and "js" folder. The frontend is using "html".<p>
-<h6>Brief Summary<h6>
+<h4>Brief Summary<h4>
 <p>
 A Zoho Creator widget for clients to check into the gym.
 Stores information to track a clients activity.
@@ -30,7 +30,7 @@ Stores information to track a clients activity.
 
 <h3>New Subscription Widget</h3>
 <p>Navigate to the folder called "app", then you will see the "css" and "js" folder. The frontend is using "html".<p>
-<h6>Brief Summary<h6>
+<h4>Brief Summary<h4>
 <p>
     This widget is used for clients to sign up for the gym.
     The subscription plans shown is controlled by the user in Zoho Subscriptions so no code adjustment is needed which also makes if scalable.
@@ -39,7 +39,7 @@ Stores information to track a clients activity.
 
 <h3>VI Port API Widget</h3>
 <p>Navigate to the folder called "app", then you will see the "css" and "js" folder. The frontend is using "html".<p>
-<h6>Brief Summary<h6>
+<h4>Brief Summary<h4>
 <p>
     This widget is a button that check how many phones are online.
     This just makes an API call to a 3rd party and update a Zoho CRM field.
@@ -47,7 +47,7 @@ Stores information to track a clients activity.
 
 <h3>Yealink Creation Server Site Widget</h3>
 <p>Navigate to the folder called "app", then you will see the "css" and "js" folder. The frontend is using "html".<p>
-<h6>Brief Summary<h6>
+<h4>Brief Summary<h4>
 <p>
 This widget uses the information entered from the custom module.
 We call a uuid api three times since a uuid cannot be repeated for security measures. 
